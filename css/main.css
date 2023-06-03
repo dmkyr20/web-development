@@ -25,10 +25,18 @@
 .waves {
   width: 100%;
   object-fit: cover;
+  scale: 105%;
+}
+
+.waves-container {
+  overflow: hidden;
 }
 
 .waves-reversed {
   width: 100%;
+  scale: 105%;
+  background-repeat: no-repeat;
+  background-size: contain;
   transform: rotate(-180deg);
 }
 
